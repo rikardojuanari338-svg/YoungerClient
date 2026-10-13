@@ -5,10 +5,9 @@
   "compatibilityLevel": "JAVA_21",
   "refmap": "youngerclient.refmap.json",
   "mixins": [
-  ],
-  "client": [
     "ExampleMixin"
   ],
+  "client": [],
   "injectors": {
     "defaultRequire": 1
   }
