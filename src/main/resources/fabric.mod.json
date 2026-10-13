@@ -1,23 +1,23 @@
 {
-	"schemaVersion": 1,
-	"id": "youngerclient",
-	"version": "1.0.0",
-	"name": "Younger Client",
-	"description": "Younger Client 1.21.11 - Fabric Loader 0.19.5",
-	"authors": ["rikardo"],
-	"contact": {},
-	"license": "CC0-1.0",
-	  "icon": "assets/youngerclient/icon.png",
-	"environment": "*",
-	"entrypoints": {
-		"main": ["com.example.ExampleMod"],
-		"client": ["com.example.client.ExampleModClient"]
-	},
-	  "mixins": ["youngerclient.mixins.json", {"config": "youngerclient.client.mixins.json", "environment": "client"}],
-	"depends": {
-		"fabricloader": ">=0.16.14",
-		"minecraft": "~1.21.11",
-		"java": ">=21",
-		"fabric-api": "*"
-	}
+  "schemaVersion": 1,
+  "id": "youngerclient",
+  "version": "${version}",
+  "name": "Younger Client",
+  "description": "Younger Client 1.21.11 - Fabric Loader 0.19.5",
+  "authors": ["rikardo"],
+  "contact": {},
+  "license": "CC0-1.0",
+  "icon": "assets/youngerclient/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "main": ["com.example.ExampleMod"],
+    "client": ["com.example.client.ExampleModClient"]
+  },
+  "mixins": ["youngerclient.mixins.json", {"config": "youngerclient.client.mixins.json", "environment": "client"}],
+  "depends": {
+    "fabricloader": ">=0.16.14",
+    "minecraft": "~1.21.11",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
 }
